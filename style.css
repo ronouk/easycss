@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    main {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #FF4838;
+    border-radius: 50%;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.circle:hover {
+    background-color: #FF4838;
+    color: #fff;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #395e66;
+    border-radius: 50%;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.circle2:hover {
+    background-color: #395e66;
+    color: #fff;
+}
